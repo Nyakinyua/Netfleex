@@ -128,3 +128,6 @@ MEDIA_URL='/media/'
 STATICFILES_DIRS=[
     BASE_DIR/'static'
 ]
+
+# Auth Settings
+AUTH_USER_MODEL='netfleex.customUser'
