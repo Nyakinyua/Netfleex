@@ -8,7 +8,8 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('netfleex.urls'))
+    path('',include('netfleex.urls')),
+    path('accounts/', include('allauth.urls')),
 
 ]
 

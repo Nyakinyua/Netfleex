@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netfleex {%block title%}{%endblock%}</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    {%block others%}{%endblock others%}
 
 </head>
-<body>
-    
+<body class="bg-black text-gray-100">
+    {%block content%}{%endblock content%}
 </body>
 </html>
